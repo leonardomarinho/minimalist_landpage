@@ -1,0 +1,163 @@
+/*
+ * Definições gerais
+ */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, arial, sans-serif;
+	font-weight: normal;
+	color: #555555;
+}
+
+body {
+	background-color: #e8e8e8;
+	font-size: 0.95em;
+}
+
+.mainContent{
+	margin: auto 10% auto 10%;
+	width: 80%;
+}
+
+a {
+	color: #FE2D16;
+}
+
+
+
+/*
+ * Cabeçalho
+ */
+header{
+	background-color: #DC1F01;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	height: 70px;
+	line-height: 4.5;
+	width: 100%;
+	z-index:10;
+	margin-bottom: 3%;
+}
+
+header p {
+	color: #FFFFFF;
+	float: left;
+	margin: 0 0 0 5%;
+	font-size: 1.1em;
+	height: inherit;
+}
+
+.navigationBar {
+	margin-left: 3%;
+	margin-right: 3%;
+	height: inherit;
+	width:80%;
+	margin: 0 10% 0 10%;
+}
+
+.navigationBar > a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	float: right;
+	height: inherit;
+}
+
+.navigationBar > a:hover {
+	text-decoration: underline;
+	background-color: #AA1F01; 
+}
+
+/**
+ *  Principal
+ */
+
+
+.mainContent > section {
+    background-color: #FFFFFF;
+    color: #555555;
+    height: auto;
+    padding: 1.5%;
+    margin: 0;
+}
+
+.mainContent .slider {
+    margin-top: 0.5%;
+}
+
+.mainContent .slider > article{
+    width: 800px;
+    height: 250px;
+    margin: 3% 10% 3% 10%;
+}
+
+.mainContent article > h1 {
+    font-size: 1.3em;
+    color: #FE2D16;
+    margin-bottom: 3%
+}
+
+.mainContent .mainPosts {
+    margin: 0;
+}
+
+.mainContent .postList{
+	list-style-type: none; 
+	padding: 1.5%;
+}
+
+.mainContent .postList > li{
+	display: inline-block;
+    width: 20%;
+    height: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1.5%;
+}
+
+.mainContent .aboutMe{
+	margin-top: 0.5%;
+}
+
+.intro > p {
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 1.5;
+	text-transform: uppercase;
+	text-align: center; 
+}
+
+/**
+ *  Rodapé - Footer
+ */
+.mainContent > footer {
+    background-color: #DC1F01;
+    color: #555555;
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+    height: 100px;
+    width: auto;
+}
+
+footer p {
+	color: #FFFFFF;
+	float: left;
+	padding: 2%;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+.goTop a {
+	color: #FFFFFF;
+	text-decoration: none;
+	float: right;
+	padding: 2%;
+	margin-top: 2%;
+	margin-right: 5%;
+}
+
+.goTop a:hover {
+	text-decoration: underline;
+}

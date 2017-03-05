@@ -1,0 +1,109 @@
+/*
+ * Definições gerais
+ */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+	color: #555555;
+}
+
+body {
+	background-color: #e1e1e1;
+	font-size: 0.95em;
+}
+
+.mainContent{
+	margin: auto 10% auto 10%;
+	width: 80%;
+}
+
+
+/*
+ * Cabeçalho
+ */
+header{
+	background-color: #D17b7b;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	height: 70px;
+	line-height: 4.5;
+	width: 100%;
+	z-index:10;
+	margin-bottom: 3%;
+}
+
+header > h1{
+	display: inline-block;
+	margin: 8px 8px 8px 40px;
+	line-height: 1;
+}
+
+
+/**
+ *  Principal
+ */
+
+.mainContent > section {
+    background-color: #BAD3D7;
+    color: #555555;
+    height: auto;
+    padding: 1.5%;
+    margin: 0;
+}
+
+.mainContent .slider {
+    background-color: #CAD3D7;
+    margin-top: 0.5%;
+}
+
+.mainContent .slider > article{
+	background-color: #DDDDDD;
+    width: inherit;
+    height: 240px;
+    margin: 3% 10% 3% 10%;
+    padding: 1.5%;
+}
+
+.mainContent article > h1 {
+    font-size: 1.3em;
+}
+
+.mainContent .mainPosts {
+    background-color: #FFD3D7;
+    margin: 0;
+}
+
+.mainContent .postList{
+	list-style-type: none; 
+	padding: 1.5%;
+}
+
+.mainContent .postList > li{
+	display: inline-block;
+	background-color: #FFFFFF;
+    width: 20%;
+    height: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1.5%;
+}
+
+.mainContent .aboutMe{
+	background-color: #AAA2C6;
+	margin-top: 0.5%;
+}
+
+/**
+ *  Rodapé - Footer
+ */
+.mainContent > footer {
+    background-color: #0498C6;
+    color: #555555;
+    height: auto;
+    padding: 1.5%;
+    margin-bottom: 5%;
+}
+
+.mainContent > footer > h1 {
+    font-size: 1.3em;
+}
