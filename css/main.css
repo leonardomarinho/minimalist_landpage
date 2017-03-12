@@ -67,7 +67,7 @@ header p {
 
 .navigationBar > a:hover {
 	text-decoration: underline;
-	background-color: #AA1F01; 
+	background-color: #AA1F01;
 }
 
 /**
@@ -87,13 +87,13 @@ header p {
     margin-top: 0.5%;
 }
 
-.mainContent .slider > article{
+.mainContent .slider > section{
     width: 800px;
     height: 250px;
     margin: 3% 10% 3% 10%;
 }
 
-.mainContent article > h1 {
+.post > h1 {
     font-size: 1.3em;
     color: #FE2D16;
     margin-bottom: 3%
@@ -104,7 +104,7 @@ header p {
 }
 
 .mainContent .postList{
-	list-style-type: none; 
+	list-style-type: none;
 	padding: 1.5%;
 }
 
@@ -126,7 +126,7 @@ header p {
 	margin-right: 5%;
 	line-height: 1.5;
 	text-transform: uppercase;
-	text-align: center; 
+	text-align: center;
 }
 
 /**
